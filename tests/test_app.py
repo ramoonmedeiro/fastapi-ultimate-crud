@@ -5,5 +5,5 @@ from src.app import app
 
 def test_root_deve_retornar_ola_mundo():
     client = TestClient(app)
-    response = client.get("/")
-    assert response.json() == {"message": "ok"}
+    response = client.get('/')
+    assert response.json() == {'message': 'ok'}

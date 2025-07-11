@@ -3,3 +3,5 @@
 .pytest_cache
 .ruff_cache
 poetry.lock
+src/__pycache__/*
+__pycache__/
